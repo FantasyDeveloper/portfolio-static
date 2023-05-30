@@ -531,10 +531,10 @@ h6,
 
 .scroll-down-arrow {
   position: fixed;
-  width: 25px;
-  opacity: 0.3;
+  width: 33px;
+  opacity: 0.5;
   top: 93vh;
   z-index: 10;
-  left: 50%;
+  left: 85%;
 }
 
