@@ -529,3 +529,12 @@ h6,
   margin-top: 2rem;
 }
 
+.scroll-down-arrow {
+  position: fixed;
+  width: 25px;
+  opacity: 0.3;
+  top: 93vh;
+  z-index: 10;
+  left: 85%;
+}
+
