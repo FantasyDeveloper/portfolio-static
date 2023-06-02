@@ -200,6 +200,7 @@ h6,
   color: #000;
   transition: 0.2s all ease;
   font-weight: 700;
+  margin-top: 5px;
 }
 
 .readmore:active,
@@ -529,12 +530,24 @@ h6,
   margin-top: 2rem;
 }
 
-.scroll-down-arrow {
-  position: fixed;
-  width: 33px;
-  opacity: 0.5;
-  top: 93vh;
-  z-index: 10;
-  left: 85%;
+.tech-stack-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.stack-icon-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.project-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-wrapper {
+  margin: 20px 0px;
 }
 
