@@ -49,24 +49,25 @@
         <div class="row align-items-start">
           <div class="col-md-2">
             <ul class="custom-menu">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Me</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="works.html">Works</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <!-- <li class="active"><a href="index.html">Home</a></li> -->
+              <li><a href="index.html#about">About Me</a></li>
+              <li><a href="index.html#project">Projects</a></li>
+              <li><a href="index.html#work">Experience</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-6 d-none d-md-block mr-auto">
             <div class="tweet d-flex">
-              <span class="bi bi-twitter text-white mt-2 mr-3"></span>
-              <div>
+              <img
+                src="./assets/icon/objective.png"
+                style="width: 27px; height: 27px"
+              />
+              <div style="margin-left: 15px; margin-right: 45px">
                 <p>
-                  <em
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam necessitatibus incidunt ut officiis explicabo
-                    inventore. <br />
-                    <a href="#">t.co/v82jsk</a></em
-                  >
+                  - Work in a dynamic startup with an innovative concept<br />
+                  - Leverage my skills to contribute to the success of the
+                  team<br />
+                  - Professional growth through learning
                 </p>
               </div>
             </div>
@@ -74,18 +75,22 @@
           <div class="col-md-4 d-none d-md-block">
             <h3>Hire Me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              necessitatibus incidunt ut officiisexplicabo inventore. <br />
-              <a href="#">myemail@gmail.com</a>
+              Experienced full-stack engineer seeking exciting opportunities.
+              Ready to bring my expertise and dedication to your team. Let's
+              collaborate and achieve great things together.<br />
+              <img src="./assets/icon/email.png" style="width: 25px" />
+              <a href="mailto:james.nih.zhang11@gmail.com"
+                >james.nih.zhang11@gmail.com</a
+              >
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- <nav class="navbar navbar-light custom-navbar">
+    <nav class="navbar navbar-light custom-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+        <a class="navbar-brand" href="index.html">James Zhang</a>
         <a
           href="#"
           class="burger"
@@ -95,117 +100,63 @@
           <span></span>
         </a>
       </div>
-    </nav> -->
+    </nav>
 
     <main id="main">
-      <!-- ======= Works Section ======= -->
-      <section class="site-portfolio">
-        <div class="container">
-          <div class="row mb-5 align-items-center" style="margin-top: 50px">
-            <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-              <a class="navbar-brand" href="index.html"
-                ><h2>Hey, I'm James Zhang</h2></a
-              >
-              <p class="mb-0">Senior Full-Stack Engineer</p>
-            </div>
-            <div
-              class="col-md-12 col-lg-6 text-start text-lg-end"
-              data-aos="fade-up"
-              data-aos-delay="100"
+      <section>
+        <div
+          class="container"
+          style="height: calc(100vh - 100px)"
+          data-aos="fade-up"
+        >
+          <div class="row col-md-8 h-100">
+            <h1 class="mt-5" style="font-size: 2.5rem">
+              Hello!
+              <img src="./assets/icon/hello-hand.png" style="width: 40px" />
+            </h1>
+            <h2 class="mb-5 mt-5" style="font-size: 2.5rem; font-weight: 300">
+              I'm a
+              <span class="fw-bold">full-stack engineer</span> with 8 years of
+              experience in web and mobile development, and project management.
+            </h2>
+
+            <h3
+              class="mt-3 mb-2 mt-5"
+              style="font-size: 1.25rem; display: flex; align-items: center"
             >
-              <div id="filters" class="filters">
-                <a href="#" data-filter="*" class="active">All</a>
-                <a href="#" data-filter=".web">Web</a>
-                <a href="#" data-filter=".mobile">Mobile</a>
-                <a href="#" data-filter=".scratch">From Scratch</a>
-                <a href="#" data-filter=".mvp">MVP</a>
-              </div>
-            </div>
+              <span>Check some of my awesome</span>
+              <img
+                src="./assets/icon/right-pointer.png"
+                style="width: 40px; margin: 0 10px"
+              />
+              <span>
+                <a
+                  href="index.html#project"
+                  style="
+                    box-shadow: inset 0 -3px 0 #000000;
+                    padding-bottom: 5px;
+                  "
+                  >projects</a
+                >
+              </span>
+            </h3>
           </div>
-          <div
-            id="portfolio-grid"
-            class="row no-gutter"
-            data-aos="fade-up"
-            data-aos-delay="200"
+
+          <a
+            href="index.html#about"
+            style="position: absolute; right: 0px; bottom: 30px"
           >
-            <div
-              class="item web mobile scratch col-sm-6 col-md-4 col-lg-4 mb-4"
-            >
-              <a href="work-single-startly.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Company Management</h3>
-                  <span>Startly</span>
-                  <div>Click to see details</div>
-                </div>
-                <img class="img-fluid" src="assets/img/img_1.png" />
-              </a>
-            </div>
-            <div
-              class="item web scratch mvp branding col-sm-6 col-md-4 col-lg-4 mb-4"
-            >
-              <a href="work-single-keen.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Insurance Service</h3>
-                  <span>Keen</span>
-                  <div>Click to see details</div>
-                </div>
-                <img class="img-fluid" src="assets/img/img_3.png" />
-              </a>
-            </div>
-            <div class="item web mobile design col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single-sweet.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>NFT Platform</h3>
-                  <span>Sweet</span>
-                  <div>Click to see details</div>
-                </div>
-                <img class="img-fluid" src="assets/img/img_4.png" />
-              </a>
-            </div>
-            <div class="item web photography col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single-quicken.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Personal Finance Management</h3>
-                  <span>Quicken</span>
-                  <div>Click to see details</div>
-                </div>
-                <img class="img-fluid" src="assets/img/quicken.png" />
-              </a>
-            </div>
-            <div
-              class="item mobile photography col-sm-6 col-md-4 col-lg-4 mb-4"
-            >
-              <a href="work-single-eharmony.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Social Dating</h3>
-                  <span>eHarmony</span>
-                  <div>Click to see details</div>
-                </div>
-                <img class="img-fluid" src="assets/img/img_2.png" />
-              </a>
-            </div>
-            <!-- <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Email Security</h3>
-                  <span>Avanan</span>
-                </div>
-                <img class="img-fluid" src="assets/img/img_6.png" />
-              </a>
-            </div> -->
-          </div>
+            <img src="./assets/icon/scroll-down.gif" style="width: 35px" />
+          </a>
         </div>
       </section>
-      <!-- End  Works Section -->
 
-      <section class="pb-5">
+      <section class="pb-5" id="about">
         <div class="container">
           <div class="row mb-5 align-items-end">
             <div class="col-md-6" data-aos="fade-up">
               <h2 class="mb-5">About Me</h2>
               <p class="mb-0">
-                Skilled full-stack engineer with 8 years of experience in web
-                and mobile development, and project management<br />
                 - I'm really big on education.<br />
                 - I'm very visual and like things to look good, which is why I
                 favor front-end development.<br />
@@ -458,9 +409,106 @@
         </div>
       </section>
 
-      <!-- ======= Services Section ======= -->
-      <section class="services">
+      <!-- ======= Works Section ======= -->
+      <section class="site-portfolio" id="project">
         <div class="container">
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+              <a class="navbar-brand" href="index.html"><h2>Projects</h2></a>
+            </div>
+            <div
+              class="col-md-12 col-lg-6 text-start text-lg-end"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div id="filters" class="filters">
+                <a href="#" data-filter="*" class="active">All</a>
+                <a href="#" data-filter=".web">Web</a>
+                <a href="#" data-filter=".mobile">Mobile</a>
+                <a href="#" data-filter=".scratch">From Scratch</a>
+                <a href="#" data-filter=".mvp">MVP</a>
+              </div>
+            </div>
+          </div>
+          <div
+            id="portfolio-grid"
+            class="row no-gutter"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="item web mobile scratch col-sm-6 col-md-4 col-lg-4 mb-4"
+            >
+              <a href="work-single-startly.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Company Management</h3>
+                  <span>Startly</span>
+                  <div>Click to see details</div>
+                </div>
+                <img class="img-fluid" src="assets/img/img_1.png" />
+              </a>
+            </div>
+            <div
+              class="item web scratch mvp branding col-sm-6 col-md-4 col-lg-4 mb-4"
+            >
+              <a href="work-single-keen.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Insurance Service</h3>
+                  <span>Keen</span>
+                  <div>Click to see details</div>
+                </div>
+                <img class="img-fluid" src="assets/img/img_3.png" />
+              </a>
+            </div>
+            <div class="item web mobile design col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="work-single-sweet.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>NFT Platform</h3>
+                  <span>Sweet</span>
+                  <div>Click to see details</div>
+                </div>
+                <img class="img-fluid" src="assets/img/img_4.png" />
+              </a>
+            </div>
+            <div class="item web photography col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="work-single-quicken.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Personal Finance Management</h3>
+                  <span>Quicken</span>
+                  <div>Click to see details</div>
+                </div>
+                <img class="img-fluid" src="assets/img/quicken.png" />
+              </a>
+            </div>
+            <div
+              class="item mobile photography col-sm-6 col-md-4 col-lg-4 mb-4"
+            >
+              <a href="work-single-eharmony.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Social Dating</h3>
+                  <span>eHarmony</span>
+                  <div>Click to see details</div>
+                </div>
+                <img class="img-fluid" src="assets/img/img_2.png" />
+              </a>
+            </div>
+            <!-- <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="work-single.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Email Security</h3>
+                  <span>Avanan</span>
+                </div>
+                <img class="img-fluid" src="assets/img/img_6.png" />
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- End  Works Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section class="services" id="work">
+        <div class="container" data-aos="fade-up">
           <div class="row justify-content-center text-center mb-4">
             <div class="">
               <h3 class="h3 heading" style="text-align: left">Experience</h3>
@@ -777,7 +825,7 @@
       </section>
       <!-- End Services Section -->
 
-      <section class="pt-5 pb-5">
+      <section class="pt-5 pb-5" id="contact">
         <div class="container">
           <div class="row mb-5 align-items-end">
             <div class="col-md-12" data-aos="fade-up">
@@ -869,7 +917,7 @@
               </p>
             </div>
 
-            <div class="col-md-8 ml-auto order-2" data-aos="fade-up">
+            <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
               <ul class="list-unstyled">
                 <li class="mb-3">
                   <strong class="d-block mb-1">Address</strong>
@@ -887,31 +935,24 @@
                     ></span
                   >
                 </li>
-                <li class="mb-3">
-                  <!-- <strong class="d-block mb-1">Linkedin</strong> -->
-                  <!-- <span
-                    ><a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/james-zhang-4688461a1/"
-                      >https://www.linkedin.com/in/james-zhang-4688461a1/</a
-                    ></span
-                  > -->
-                  <div
-                    class="badge-base LI-profile-badge"
-                    data-locale="en_US"
-                    data-size="medium"
-                    data-theme="light"
-                    data-type="VERTICAL"
-                    data-vanity="james-zhang-4688461a1"
-                    data-version="v1"
-                  >
-                    <a
-                      class="badge-base__link LI-simple-link"
-                      href="https://www.linkedin.com/in/james-zhang-4688461a1?trk=profile-badge"
-                    ></a>
-                  </div>
-                </li>
               </ul>
+            </div>
+
+            <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+              <div
+                class="badge-base LI-profile-badge"
+                data-locale="en_US"
+                data-size="medium"
+                data-theme="light"
+                data-type="VERTICAL"
+                data-vanity="james-zhang-4688461a1"
+                data-version="v1"
+              >
+                <a
+                  class="badge-base__link LI-simple-link"
+                  href="https://www.linkedin.com/in/james-zhang-4688461a1?trk=profile-badge"
+                ></a>
+              </div>
             </div>
           </div>
         </div>
@@ -975,19 +1016,16 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <!-- <footer class="footer" role="contentinfo">
+    <footer class="footer" role="contentinfo" style="padding-bottom: 2rem">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6"></div>
-          <div class="col-sm-6 social text-md-end">
-            <a href="#"><span class="bi bi-twitter"></span></a>
-            <a href="#"><span class="bi bi-facebook"></span></a>
-            <a href="#"><span class="bi bi-instagram"></span></a>
-            <a href="#"><span class="bi bi-linkedin"></span></a>
+          <div class="col-sm-6">
+            <div class="credits">© 2023. Made with passion by James Zhang.</div>
           </div>
+          <div class="col-sm-6 text-md-end">All right reserved.</div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <a
       href="#"
